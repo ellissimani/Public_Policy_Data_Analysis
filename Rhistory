@@ -1,0 +1,512 @@
+plot.ts(d)
+lin <- lm(d~time(d), na.action=NULL)
+plot(resid(lin), main = 'De(linear)trended')
+quad <- lm(d~time(d) +I(time(d)^2), na.action=NULL)
+plot(resid(quad), main = 'De(linear)trended')
+}
+my.ts.function(wages)
+plot(diff(resid(lim)), type='o', main='First Difference'
+quad <- lm(d~time(d) +I(time(d)^2), na.action=NULL)
+plot(resid(quad), main = 'De(linear)trended')
+}
+my.ts.function <- function(d){
+par(mfrow = c(2,2))
+data(d)
+plot.ts(d)
+lin <- lm(d~time(d), na.action=NULL)
+plot(resid(lin), main = 'De(linear)trended')
+plot(diff(resid(lim)), type='o', main='First Difference'
+quad <- lm(d~time(d) +I(time(d)^2), na.action=NULL)
+plot(resid(quad), main = 'De(linear)trended')
+}
+my.ts.function <- function(d)
+my.ts.function <- function(d)
+par(mfrow = c(2,2))
+data(d)
+plot.ts(d)
+lin <- lm(d~time(d), na.action=NULL)
+plot(resid(lin), main = 'De(linear)trended'
+plot(diff(resid(lim)), type='o', main='First Difference'
+quad <- lm(d~time(d) +I(time(d)^2), na.action=NULL)
+plot(resid(quad), main = 'De(linear)trended')
+}
+}
+source('~/Time Series/lab1ts.R', echo=TRUE)
+my.ts.function <- function(d)
+par(mfrow = c(2,2))
+data(d)
+plot.ts(d)
+lin <- lm(d~time(d), na.action=NULL)
+plot(resid(lin), main = 'De(linear)trended')
+plot(diff(resid(lim)), type='o', main='First Difference')
+quad <- lm(d~time(d) +I(time(d)^2), na.action=NULL)
+plot(resid(quad), main = 'De(linear)trended')
+}
+my.ts.function(wages)
+my.ts.function(wages)
+my.ts.function <- function(d){
+par(mfrow = c(2,2))
+data(d)
+plot.ts(d)
+lin <- lm(d~time(d), na.action=NULL)
+plot(resid(lin), main = 'De(linear)trended')
+plot(diff(resid(lim)), type='o', main='First Difference')
+quad <- lm(d~time(d) +I(time(d)^2), na.action=NULL)
+plot(resid(quad), main = 'De(quadratic)trended')
+}
+my.ts.function(wages)
+source('~/Time Series/lab1ts.R', echo=TRUE)
+my.ts.function(wages)
+acf(wages)
+source('~/Time Series/lab1ts.R', echo=TRUE)
+acf(lin)
+source('~/Time Series/lab1ts.R', echo=TRUE)
+my.ts.function(wages)
+# acf(d)
+# acf(lin)
+# acf(diff(resid(lin)))
+# acf(resid(quad))
+# qqnorm(rstudent(mw2))
+source('~/Time Series/lab1ts.R', echo=TRUE)
+my.ts.function(wages)
+source('~/Time Series/lab1ts.R', echo=TRUE)
+my.ts.function(wages)
+acf(resid(lin))
+source('~/Time Series/lab1ts.R', echo=TRUE)
+my.ts.function(wages)
+source('~/Time Series/lab1ts.R', echo=TRUE)
+my.ts.function(wages)
+source('~/Time Series/lab1ts.R', echo=TRUE)
+my.ts.function(wages)
+source('~/Time Series/lab1ts.R', echo=TRUE)
+my.ts.function(beersales)
+library(TSA)
+my.ts.function(beersales)
+my.ts.function(beersales)
+?beersales
+my.ts.function(beersales)
+load(beersales)
+data(beersales)
+my.ts.function(beersales)
+my.ts.function(wages)
+my.ts.function(beersales)
+knitr::opts_chunk$set(echo = TRUE)
+data(beersales)
+my.ts.function(beersales)
+knitr::opts_chunk$set(echo = TRUE)
+library(TSA)
+knitr::opts_chunk$set(echo = TRUE)
+library(TSA)
+my.ts.function <- function(d){
+par(mfrow = c(2,2))
+data(d)
+plot.ts(d)
+lin <- lm(d~time(d), na.action=NULL)
+plot(resid(lin), main = 'De(linear)trended')
+plot(diff(resid(lin)), type='o', main='First Difference')
+quad <- lm(d~time(d) +I(time(d)^2), na.action=NULL)
+plot(resid(quad), main = 'De(quadratic)trended')
+acf(d, main = 'Autocorrelation of Time Series')
+acf(resid(lin), main = ' Autocorrelation of Linear Residuals' )
+acf(diff(resid(lin)), main = 'Autocorrelation of First Diff Residuals')
+acf(resid(quad), main = 'Autocorrelation of Quadratic Residuals')
+qqnorm(rstudent(mw2))
+}
+data(beersales)
+my.ts.function(beersales)
+my.ts.function <- function(d){
+par(mfrow = c(2,2))
+data(d)
+plot.ts(d)
+lin <- lm(d~time(d), na.action=NULL)
+plot(resid(lin), main = 'De(linear)trended')
+plot(diff(resid(lin)), type='o', main='First Difference')
+quad <- lm(d~time(d) +I(time(d)^2), na.action=NULL)
+plot(resid(quad), main = 'De(quadratic)trended')
+acf(d, main = 'Autocorrelation of Time Series')
+acf(resid(lin), main = ' Autocorrelation of Linear Residuals' )
+acf(diff(resid(lin)), main = 'Autocorrelation of First Diff Residuals')
+acf(resid(quad), main = 'Autocorrelation of Quadratic Residuals')
+qqnorm(rstudent(lin))
+}
+data(beersales)
+my.ts.function(beersales)
+?cat
+mc(c(o.4, 0.3. 0.5, 0.5, 0.1, 0.8, 0.2. 0.9, 0.6, 0.7))
+mc(c(0.4, 0.3. 0.5, 0.5, 0.1, 0.8, 0.2. 0.9, 0.6, 0.7))
+mc(c(0.4, 0.3, 0.5, 0.5, 0.1, 0.8, 0.2. 0.9, 0.6, 0.7))
+mc(c(0.4, 0.3, 0.5, 0.5, 0.1, 0.8, 0.2, 0.9, 0.6, 0.7))
+knitr::opts_chunk$set(echo = TRUE)
+findS <- function(points){
+S <- 0;
+mpoints <- matrix(points, ncol = 2, byrow=TRUE)
+for (i in 1:nrow(mpoints)-1){
+for (j in (i+1):nrow(mpoints)){
+S <- S + sum(abs(mpoints[i,]-mpoints[j,]))
+}
+}
+return(S)
+}
+generateS <- function(){
+points <- runif(10,min=0,max=1)
+}
+mc <- function(Sdata){
+return(as.integer(generateS() <= Sdata))
+}
+mc(c(0.4, 0.3, 0.5, 0.5, 0.1, 0.8, 0.2, 0.9, 0.6, 0.7))
+replicate(10, mc(c(0.4, 0.3, 0.5, 0.5, 0.1, 0.8, 0.2, 0.9, 0.6, 0.7)))
+findS <- function(points){
+S <- 0;
+mpoints <- matrix(points, ncol = 2, byrow=TRUE)
+for (i in 1:nrow(mpoints)-1){
+for (j in (i+1):nrow(mpoints)){
+S <- S + sum(abs(mpoints[i,]-mpoints[j,]))
+}
+}
+return(S)
+}
+generateS <- function(){
+points <- runif(10,min=0,max=1)
+}
+mc <- function(Sdata){
+return(as.integer(generateS() <= Sdata))
+}
+data <- c(0.4, 0.3, 0.5, 0.5, 0.1, 0.8, 0.2, 0.9, 0.6, 0.7)
+findS(data)
+findS(runif(10))
+knitr::opts_chunk$set(echo = TRUE)
+aliasPreprocess <- function(values,p) {
+n <- length(values)
+indices <- 1:n
+small <- indices[p <= 1/n]
+large <- indices[p > 1/n]
+c <- rep(0,n)
+lower <- rep(0,n)
+upper <- rep(0,n)
+for (i in 1:n) {
+small_label <- small[1] small <- small[-1]
+aliasPreprocess <- function(values,p) {
+n <- length(values)
+indices <- 1:n
+small <- indices[p <= 1/n]
+large <- indices[p > 1/n]
+c <- rep(0,n)
+lower <- rep(0,n)
+upper <- rep(0,n)
+for (i in 1:n) {
+small_label <- small[1]
+small <- small[-1]
+large_label <- large[1]
+lower[i] <- values[small_label]
+upper[i] <- values[large_label]
+c[i] <- p[small_label]
+p[large_label] <- p[large_label] - (1/n - p[small_label])
+if (is.integer(large_label)) {
+if ((p[large_label] <= 1/n) || (length(small) == 0)) {
+small <- c(small,large_label)
+large <- large[-1]
+}
+}
+}
+return(rbind(c,upper,lower))
+}
+mc <- function(c,upper,lower) {
+n = length(c) u <- runif(2,min=0,max=1)
+aliasPreprocess <- function(values,p) {
+n <- length(values)
+indices <- 1:n
+small <- indices[p <= 1/n]
+large <- indices[p > 1/n]
+c <- rep(0,n)
+lower <- rep(0,n)
+upper <- rep(0,n)
+for (i in 1:n) {
+small_label <- small[1]
+small <- small[-1]
+large_label <- large[1]
+lower[i] <- values[small_label]
+upper[i] <- values[large_label]
+c[i] <- p[small_label]
+p[large_label] <- p[large_label] - (1/n - p[small_label])
+if (is.integer(large_label)) {
+if ((p[large_label] <= 1/n) || (length(small) == 0)) {
+small <- c(small,large_label)
+large <- large[-1]
+}
+}
+}
+return(rbind(c,upper,lower))
+}
+mc <- function(c,upper,lower) {
+n = length(c)
+u <- runif(2,min=0,max=1)
+i <- floor(n*u[1]) + 1
+if (u[2]/n <= c[i]) {
+return(lower[i]) else return(upper[i])
+aliasPreprocess <- function(values,p) {
+n <- length(values)
+indices <- 1:n
+small <- indices[p <= 1/n]
+large <- indices[p > 1/n]
+c <- rep(0,n)
+lower <- rep(0,n)
+upper <- rep(0,n)
+for (i in 1:n) {
+small_label <- small[1]
+small <- small[-1]
+large_label <- large[1]
+lower[i] <- values[small_label]
+upper[i] <- values[large_label]
+c[i] <- p[small_label]
+p[large_label] <- p[large_label] - (1/n - p[small_label])
+if (is.integer(large_label)) {
+if ((p[large_label] <= 1/n) || (length(small) == 0)) {
+small <- c(small,large_label)
+large <- large[-1]
+}
+}
+}
+return(rbind(c,upper,lower))
+}
+mc <- function(c,upper,lower) {
+n = length(c)
+u <- runif(2,min=0,max=1)
+i <- floor(n*u[1]) + 1
+if (u[2]/n <= c[i])
+return(lower[i]) else return(upper[i])
+}
+aliasPreprocess((rbinom(1000, 5, 0.2), 0.5)
+aliasPreprocess((rbinom(1000, 5, 0.2))
+)
+aliasPreprocess((rbinom(1000, 5, 0.2)), 0.2)
+aliasPreprocess((rbinom(1000, 5, 0.2)), 0.05)
+a <- aliasPreprocess((rbinom(1000, 5, 0.2)), 0.05)
+head(a)
+head(a, 10)
+class(a)
+aliasPreprocess <- function(values,p) {
+n <- length(values)
+indices <- 1:n
+small <- indices[p <= 1/n]
+large <- indices[p > 1/n]
+c <- rep(0,n)
+lower <- rep(0,n)
+upper <- rep(0,n)
+for (i in 1:n) {
+small_label <- small[1]
+small <- small[-1]
+large_label <- large[1]
+lower[i] <- values[small_label]
+upper[i] <- values[large_label]
+c[i] <- p[small_label]
+p[large_label] <- p[large_label] - (1/n - p[small_label])
+if (is.integer(large_label)) {
+if ((p[large_label] <= 1/n) || (length(small) == 0)) {
+small <- c(small,large_label)
+large <- large[-1]
+}
+}
+}
+return(rbind(c,upper,lower))
+}
+mc)a <- function(c,upper,lower) {
+aliasPreprocess <- function(values,p) {
+n <- length(values)
+indices <- 1:n
+small <- indices[p <= 1/n]
+large <- indices[p > 1/n]
+c <- rep(0,n)
+lower <- rep(0,n)
+upper <- rep(0,n)
+for (i in 1:n) {
+small_label <- small[1]
+small <- small[-1]
+large_label <- large[1]
+lower[i] <- values[small_label]
+upper[i] <- values[large_label]
+c[i] <- p[small_label]
+p[large_label] <- p[large_label] - (1/n - p[small_label])
+if (is.integer(large_label)) {
+if ((p[large_label] <= 1/n) || (length(small) == 0)) {
+small <- c(small,large_label)
+large <- large[-1]
+}
+}
+}
+return(rbind(c,upper,lower))
+}
+mc_a <- function(c,upper,lower) {
+n = length(c)
+u <- runif(2,min=0,max=1)
+i <- floor(n*u[1]) + 1
+if (u[2]/n <= c[i])
+return(lower[i]) else return(upper[i])
+}
+mc_a(a[0,], a[1,], a[2,])
+aliasPreprocess <- function(values,p) {
+n <- length(values)
+indices <- 1:n
+small <- indices[p <= 1/n]
+large <- indices[p > 1/n]
+c <- rep(0,n)
+lower <- rep(0,n)
+upper <- rep(0,n)
+for (i in 1:n) {
+small_label <- small[1]
+small <- small[-1]
+large_label <- large[1]
+lower[i] <- values[small_label]
+upper[i] <- values[large_label]
+c[i] <- p[small_label]
+p[large_label] <- p[large_label] - (1/n - p[small_label])
+if (is.integer(large_label)) {
+if ((p[large_label] <= 1/n) || (length(small) == 0)) {
+small <- c(small,large_label)
+large <- large[-1]
+}
+}
+}
+return(rbind(c,upper,lower))
+}
+mc_a <- function(c,upper,lower) {
+n = length(c)
+u <- runif(2,min=0,max=1)
+i <- floor(n*u[1]) + 1
+if (u[2]/n <= c[i])
+return(lower[i]) else return(upper[i])
+}
+a <- aliasPreprocess(rbin(1000, , 0.2), 0.2)
+aliasPreprocess <- function(values,p) {
+n <- length(values)
+indices <- 1:n
+small <- indices[p <= 1/n]
+large <- indices[p > 1/n]
+c <- rep(0,n)
+lower <- rep(0,n)
+upper <- rep(0,n)
+for (i in 1:n) {
+small_label <- small[1]
+small <- small[-1]
+large_label <- large[1]
+lower[i] <- values[small_label]
+upper[i] <- values[large_label]
+c[i] <- p[small_label]
+p[large_label] <- p[large_label] - (1/n - p[small_label])
+if (is.integer(large_label)) {
+if ((p[large_label] <= 1/n) || (length(small) == 0)) {
+small <- c(small,large_label)
+large <- large[-1]
+}
+}
+}
+return(rbind(c,upper,lower))
+}
+mc_a <- function(c,upper,lower) {
+n = length(c)
+u <- runif(2,min=0,max=1)
+i <- floor(n*u[1]) + 1
+if (u[2]/n <= c[i])
+return(lower[i]) else return(upper[i])
+}
+a <- aliasPreprocess(rbinom(1000, , 0.2), 0.2)
+aliasPreprocess <- function(values,p) {
+n <- length(values)
+indices <- 1:n
+small <- indices[p <= 1/n]
+large <- indices[p > 1/n]
+c <- rep(0,n)
+lower <- rep(0,n)
+upper <- rep(0,n)
+for (i in 1:n) {
+small_label <- small[1]
+small <- small[-1]
+large_label <- large[1]
+lower[i] <- values[small_label]
+upper[i] <- values[large_label]
+c[i] <- p[small_label]
+p[large_label] <- p[large_label] - (1/n - p[small_label])
+if (is.integer(large_label)) {
+if ((p[large_label] <= 1/n) || (length(small) == 0)) {
+small <- c(small,large_label)
+large <- large[-1]
+}
+}
+}
+return(rbind(c,upper,lower))
+}
+mc_a <- function(c,upper,lower) {
+n = length(c)
+u <- runif(2,min=0,max=1)
+i <- floor(n*u[1]) + 1
+if (u[2]/n <= c[i])
+return(lower[i]) else return(upper[i])
+}
+a <- aliasPreprocess(rbinom(1000, 5 , 0.2), 0.2)
+mc_a(a[0,], a[1,], a[2,])
+ma <- read.csv("MA data by State.csv", header = TRUE)
+setwd("C:/Users/rauna/Google Drive/PPA Seminar (Spring 2017)/BPC Project")
+ma <- read.csv("MA data by State.csv", header = TRUE)
+View(ma)
+head(ma)
+View(ma)
+view(ma)
+View(ma)
+AL_total <- MA[Sate = "AL"]
+AL_total <- ma[Sate = "AL"]
+AL_total <- ma[State = "AL"]
+AL_total <- subste(data = ma, State == "AL")
+AL_total <- subset(data = ma, State == "AL")
+AL_total <- subset(data = ma, "State" == "AL")
+colnames(ma)
+AL_total <- subset(data = ma, "ma$State == "AL")
+AL_total <- subset(data = ma, "ma$State = AL)
+AL_total <- subset(data = ma, ma$State = AL)
+AL_total <- subset(data = ma, ma$State == "AL")
+AL_total <- subset(data = ma, ma$State == "AL")
+ma[State = "AL"]
+ma[1:10]
+ma[ma$State == "AL"]
+colnames(ma)
+type(ma)
+class(ma)
+ma[ma$State == "AL", ]
+sum(ma%enrollment)
+colnames(ma)
+summary(ma)
+table(ma)
+table(ma$State, ma$Enrolled)
+?table
+class(ma$Enrolles)
+class(ma$Enrolled)
+?aggregate
+aggregate(ma)
+aggregate(data = ma, FUN = sum())
+aggregate(ma$Enrolled, list(state = ma$State), mean)
+aggregate(ma$Enrolled, list(state = ma$State), mean())
+aggregate(ma$Enrolled, list(state = ma$State), mean
+aggregate(ma$Enrolled, list(state = ma$State), sum)
+aggregate(ma$Enrolled, list(state = ma$State), mean)
+ma[ma$Enrolled==NA]
+ma[ma$Enrolled==NA, ]
+aggregate(ma$Enrolled, list(state = ma$State), mean, na.action = na.omit)
+aggregate(ma$Enrolled, list(state = ma$State), FUN = mean, na.action = na.omit)
+aggregate(ma$Enrolled, list(state = ma$State), FUN = mean, na.rm == TRUE)
+aggregate(ma$Enrolled, list(state = ma$State), FUN = mean, na.rm = TRUE)
+aggregate(ma$Enrolled, list(state = ma$State), FUN = sum, na.rm == TRUE)
+aggregate(ma$Enrolled, list(state = ma$State), FUN = sum, na.rm = TRUE)
+state_ma <- aggregate(ma$Enrolled, list(state = ma$State), FUN = sum, na.rm = TRUE)
+plot(state_ma$state)
+plot(state_ma$x)
+plot(state_ma$state, state_ma$x)
+max(state_ma$x)
+ma_state[ma_state$x == max(state_ma$x), ]
+state_ma[ma_state$x == max(state_ma$x), ]
+state_ma[state_ma$x == max(state_ma$x), ]
+ma_state
+ma_state <- state_ma
+ma_state
+ma_state_type <- aggregate(ma$Enrolled, list(state = ma$State, type = ma$Plan.Type), FUN = sum, na.rm = TRUE)
+head(ma_state_type)
+head(ma)
+ma_state_type
+View(ma_state_type)
